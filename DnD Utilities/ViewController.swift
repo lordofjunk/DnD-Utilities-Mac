@@ -14,10 +14,12 @@ class ViewController: NSViewController {
     @IBOutlet weak var DieSelection: NSPopUpButton!
     @IBOutlet weak var ResultField: NSTextField!
     @IBOutlet weak var NumberOfDice: NSTextField!
+    @IBOutlet weak var IndividualResults: NSBrowser!
 
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
+        ResultField.stringValue = ""
         for die in diceBag.keys.sort({diceBag[$0] < diceBag[$1]}) {
             DieSelection.addItemWithTitle(die)
         }
