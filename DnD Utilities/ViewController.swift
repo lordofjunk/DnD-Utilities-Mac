@@ -32,8 +32,6 @@ class ViewController: NSViewController {
             DieSelection.addItemWithTitle(die)
         }
         
-        setBag.append(DiceSet(numDice: 2, numSides: 6, mod: 0))
-        
         RollsTable.setDelegate(self)
         RollsTable.setDataSource(self)
         
@@ -64,6 +62,12 @@ class ViewController: NSViewController {
         }
     }
     
+    @IBAction func SaveButton(sender: AnyObject) {
+        if (Int(NumberOfDice.stringValue) != nil) && (diceBag[DieSelection.titleOfSelectedItem!]! != 0) {
+            setBag.append(DiceSet(numDice: Int(NumberOfDice.stringValue)!, numSides: diceBag[DieSelection.titleOfSelectedItem!]!, mod: Int(Modifier.stringValue) ?? 0))
+            RollsTable.reloadData()
+        }
+    }
 }
 
 extension ViewController : NSTableViewDataSource {
