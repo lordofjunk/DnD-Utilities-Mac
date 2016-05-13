@@ -8,7 +8,14 @@
 
 /* Begin PBXBuildFile section */
 		E152761F1CE63E7600FB12F9 /* AdderRollerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E152761E1CE63E7600FB12F9 /* AdderRollerViewController.swift */; };
-		E18D40FF1CE5588B002CCE80 /* NewAppIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = E18D40FE1CE5588B002CCE80 /* NewAppIcon.png */; };
+		E152762A1CE6803B00FB12F9 /* AppIcon.svg in Resources */ = {isa = PBXBuildFile; fileRef = E15276221CE6803B00FB12F9 /* AppIcon.svg */; };
+		E152762B1CE6803B00FB12F9 /* AppIcon_1024.png in Resources */ = {isa = PBXBuildFile; fileRef = E15276231CE6803B00FB12F9 /* AppIcon_1024.png */; };
+		E152762C1CE6803B00FB12F9 /* AppIcon_128.png in Resources */ = {isa = PBXBuildFile; fileRef = E15276241CE6803B00FB12F9 /* AppIcon_128.png */; };
+		E152762D1CE6803B00FB12F9 /* AppIcon_16.png in Resources */ = {isa = PBXBuildFile; fileRef = E15276251CE6803B00FB12F9 /* AppIcon_16.png */; };
+		E152762E1CE6803B00FB12F9 /* AppIcon_256.png in Resources */ = {isa = PBXBuildFile; fileRef = E15276261CE6803B00FB12F9 /* AppIcon_256.png */; };
+		E152762F1CE6803B00FB12F9 /* AppIcon_32.png in Resources */ = {isa = PBXBuildFile; fileRef = E15276271CE6803B00FB12F9 /* AppIcon_32.png */; };
+		E15276301CE6803B00FB12F9 /* AppIcon_512.png in Resources */ = {isa = PBXBuildFile; fileRef = E15276281CE6803B00FB12F9 /* AppIcon_512.png */; };
+		E15276311CE6803B00FB12F9 /* AppIcon_64.png in Resources */ = {isa = PBXBuildFile; fileRef = E15276291CE6803B00FB12F9 /* AppIcon_64.png */; };
 		E1EB35901CE16744008D510A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1EB358F1CE16744008D510A /* AppDelegate.swift */; };
 		E1EB35921CE16744008D510A /* RollerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1EB35911CE16744008D510A /* RollerViewController.swift */; };
 		E1EB35941CE16744008D510A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E1EB35931CE16744008D510A /* Assets.xcassets */; };
@@ -18,7 +25,14 @@
 
 /* Begin PBXFileReference section */
 		E152761E1CE63E7600FB12F9 /* AdderRollerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AdderRollerViewController.swift; sourceTree = "<group>"; };
-		E18D40FE1CE5588B002CCE80 /* NewAppIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = NewAppIcon.png; sourceTree = "<group>"; };
+		E15276221CE6803B00FB12F9 /* AppIcon.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = AppIcon.svg; sourceTree = "<group>"; };
+		E15276231CE6803B00FB12F9 /* AppIcon_1024.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = AppIcon_1024.png; sourceTree = "<group>"; };
+		E15276241CE6803B00FB12F9 /* AppIcon_128.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = AppIcon_128.png; sourceTree = "<group>"; };
+		E15276251CE6803B00FB12F9 /* AppIcon_16.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = AppIcon_16.png; sourceTree = "<group>"; };
+		E15276261CE6803B00FB12F9 /* AppIcon_256.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = AppIcon_256.png; sourceTree = "<group>"; };
+		E15276271CE6803B00FB12F9 /* AppIcon_32.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = AppIcon_32.png; sourceTree = "<group>"; };
+		E15276281CE6803B00FB12F9 /* AppIcon_512.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = AppIcon_512.png; sourceTree = "<group>"; };
+		E15276291CE6803B00FB12F9 /* AppIcon_64.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = AppIcon_64.png; sourceTree = "<group>"; };
 		E1EB358C1CE16744008D510A /* DnD Utilities.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "DnD Utilities.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E1EB358F1CE16744008D510A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E1EB35911CE16744008D510A /* RollerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RollerViewController.swift; sourceTree = "<group>"; };
@@ -39,11 +53,28 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		E15276211CE6803B00FB12F9 /* AppIcon */ = {
+			isa = PBXGroup;
+			children = (
+				E15276221CE6803B00FB12F9 /* AppIcon.svg */,
+				E15276231CE6803B00FB12F9 /* AppIcon_1024.png */,
+				E15276241CE6803B00FB12F9 /* AppIcon_128.png */,
+				E15276251CE6803B00FB12F9 /* AppIcon_16.png */,
+				E15276261CE6803B00FB12F9 /* AppIcon_256.png */,
+				E15276271CE6803B00FB12F9 /* AppIcon_32.png */,
+				E15276281CE6803B00FB12F9 /* AppIcon_512.png */,
+				E15276291CE6803B00FB12F9 /* AppIcon_64.png */,
+			);
+			name = AppIcon;
+			path = "DnD Utilities/AppIcon";
+			sourceTree = "<group>";
+		};
 		E1EB35831CE16744008D510A = {
 			isa = PBXGroup;
 			children = (
 				E1EB358E1CE16744008D510A /* DnD Utilities */,
 				E1EB358D1CE16744008D510A /* Products */,
+				E15276211CE6803B00FB12F9 /* AppIcon */,
 			);
 			sourceTree = "<group>";
 		};
@@ -65,7 +96,6 @@
 				E1EB35951CE16744008D510A /* Main.storyboard */,
 				E1EB35981CE16744008D510A /* Info.plist */,
 				E1EB359E1CE16800008D510A /* README.md */,
-				E18D40FE1CE5588B002CCE80 /* NewAppIcon.png */,
 			);
 			path = "DnD Utilities";
 			sourceTree = "<group>";
@@ -133,9 +163,16 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E18D40FF1CE5588B002CCE80 /* NewAppIcon.png in Resources */,
 				E1EB35941CE16744008D510A /* Assets.xcassets in Resources */,
+				E152762C1CE6803B00FB12F9 /* AppIcon_128.png in Resources */,
+				E15276311CE6803B00FB12F9 /* AppIcon_64.png in Resources */,
 				E1EB35971CE16744008D510A /* Main.storyboard in Resources */,
+				E152762D1CE6803B00FB12F9 /* AppIcon_16.png in Resources */,
+				E152762E1CE6803B00FB12F9 /* AppIcon_256.png in Resources */,
+				E152762A1CE6803B00FB12F9 /* AppIcon.svg in Resources */,
+				E152762B1CE6803B00FB12F9 /* AppIcon_1024.png in Resources */,
+				E15276301CE6803B00FB12F9 /* AppIcon_512.png in Resources */,
+				E152762F1CE6803B00FB12F9 /* AppIcon_32.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
