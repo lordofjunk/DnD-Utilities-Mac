@@ -20,7 +20,6 @@
 		E1EB35921CE16744008D510A /* RollerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1EB35911CE16744008D510A /* RollerViewController.swift */; };
 		E1EB35941CE16744008D510A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E1EB35931CE16744008D510A /* Assets.xcassets */; };
 		E1EB35971CE16744008D510A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E1EB35951CE16744008D510A /* Main.storyboard */; };
-		E1EB359F1CE16800008D510A /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = E1EB359E1CE16800008D510A /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -183,7 +182,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E1EB359F1CE16800008D510A /* README.md in Sources */,
 				E152761F1CE63E7600FB12F9 /* AdderRollerViewController.swift in Sources */,
 				E1EB35921CE16744008D510A /* RollerViewController.swift in Sources */,
 				E1EB35901CE16744008D510A /* AppDelegate.swift in Sources */,

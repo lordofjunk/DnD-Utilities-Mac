@@ -34,7 +34,7 @@ class RollerViewController: NSViewController {
         RollsTable.setDataSource(self)
         
         // Miscellaneous set up
-        setBag.append(DiceSet(name: "Test", numDice: 1, numSides: 6, mod: 1))
+        // setBag.append(DiceSet(name: "Test", numDice: 1, numSides: 6, mod: 1))
         ResultText.stringValue = ""
         
         // Reloading all necessary things
